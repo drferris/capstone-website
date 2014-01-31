@@ -1,5 +1,51 @@
 <% provide :title, 'Capstone Project | Home' %>
 
-<div class="header">
+<h1>VISUALIZING TEXT</h1>
+
+<div class="gallery">
+  <div class="gallery-main">
+    <div id="large1" class="gallery-large">
+      <%= image_tag 'adam-workaholics.jpg', alt: 'main image' %>
+    </div>
+
+    <div id="large2" class="gallery-large">
+      <%= image_tag 'blackbear.jpg', alt: 'main image' %>
+    </div>
+
+    <div id="large3" class="gallery-large">
+      <%= image_tag 'falcor.jpg', alt: 'main image' %>
+    </div>
+
+    <div id="large4" class="gallery-large">
+      <%= image_tag 'blackbear.jpg', alt: 'main image' %>
+    </div>
+  </div>
+
+  <ul class="gallery-slides">
+
+    <li id="image1" class="gallery-small inactive">
+      <div class="overlay"></div>
+      <%= image_tag 'adam-workaholics.jpg', alt: 'first image' %>
+    </li>
+
+    <li id="image2" class="gallery-small inactive">
+      <div class="overlay"></div>
+      <%= image_tag 'blackbear.jpg', alt: 'second image' %>
+    </li>
+
+    <li id="image3" class="gallery-small inactive">
+      <div class="overlay"></div>
+      <%= image_tag 'falcor.jpg', alt: 'third image' %>
+    </li>
+
+    <li id="image4" class="gallery-small inactive">
+      <div class="overlay"></div>
+      <%= image_tag 'blackbear.jpg', alt: 'fourth image' %>
+    </li>
+
+  </ul>
+
 
 </div>
+
+<div class="clearfix"></div>
