@@ -2,6 +2,10 @@ CapstoneWebsite::Application.routes.draw do
 
   root to: 'static_pages#home'
 
+  match 'blog', to: 'static_pages#blog'
+  match 'resume', to: 'static_pages#resume'
+  match 'pictures', to: 'static_pages#pictures'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
