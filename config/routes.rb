@@ -2,9 +2,12 @@ CapstoneWebsite::Application.routes.draw do
 
   root to: 'static_pages#home'
 
+  resources :mail_messages, only: [:new, :create]
+
   match 'blog', to: 'static_pages#blog'
   match 'resume', to: 'static_pages#resume'
   match 'pictures', to: 'static_pages#pictures'
+  match 'contact', to: 'mail_messages#new'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

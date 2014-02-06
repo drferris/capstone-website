@@ -1,5 +1,11 @@
 $(function() {
   initGallery();
+
+  $('.clear').click(function(){
+    $('.name').empty();
+    $('.email').empty();
+    $('.area').empty();
+  });
 });
 
 function initGallery() {

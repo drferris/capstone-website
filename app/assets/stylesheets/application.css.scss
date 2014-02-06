@@ -235,6 +235,59 @@ h3 {
   }
 }
 
+/*************************************************************
+                      Contact Styles
+*************************************************************/
+.form-fields {
+  width: 500px;
+  margin: auto;
+
+  .form { text-align: center; }
+}
+
+.contact-input {
+  -moz-border-radius: 15px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #6699CC;
+  padding-left: 10px;
+}
+
+.line {
+  width: 245px;
+  height: 30px;
+  float: left;
+}
+
+.area {
+  width: 100%;
+  height: 150px;
+  margin: 10px 0;
+}
+
+.name {
+  margin-right: 5px;
+}
+
+.email {
+  margin-left: 5px;
+}
+
+.submit {
+  width: 370px;
+  margin-right: 10px;
+  float: left;
+}
+
+.clear {
+  width: 120px;
+  float: left;
+}
+
+#contact-text {
+  color: #666666;
+}
 
 /*************************************************************
                       Footer Styles
@@ -270,6 +323,9 @@ h3 {
   }
 }
 
+/*************************************************************
+                      Email Styles
+*************************************************************/
 
 
 
